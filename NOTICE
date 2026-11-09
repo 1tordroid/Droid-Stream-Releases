@@ -1,0 +1,71 @@
+Vega
+Copyright (c) 2026 [LICENSOR NAME]
+
+Starting after commit 9ccc0c8 (2026-10-02), Vega is licensed under the
+PolyForm Noncommercial License 1.0.0. See LICENSE. Commercial licenses are
+available on request.
+
+Earlier versions, up to and including commit 9ccc0c8, were released under the
+Apache License 2.0 (http://www.apache.org/licenses/LICENSE-2.0). That license
+still applies to copies of those versions.
+
+Portions of this software were contributed by third parties under the Apache
+License 2.0 and remain under that license. Their copyright belongs to their
+respective authors; see the git history for attribution.
+
+This software includes third-party libraries, such as FFmpeg, libtorrent and
+React Native, under their own licenses.
+
+The optional VLC playback engine dynamically links libVLC and the VLC for
+Android media library, both under the GNU Lesser General Public License
+version 2.1. Droid Stream does not modify those libraries. Their source is
+available from VideoLAN (https://www.videolan.org/).
+
+Extra audio formats in the built-in player use Media3's FFmpeg decoder
+(androidx/media decoder_ffmpeg 1.8.0, Apache License 2.0, unmodified), which
+links FFmpeg dynamically. On 64-bit devices that is the FFmpeg 8.1.3 of
+ffmpeg-kit-https (GNU Lesser General Public License 3.0). On 32-bit ARM the
+app ships FFmpeg 8.1.3, unmodified, built with only audio decoders and
+without GPL or non-free parts (GNU Lesser General Public License 2.1 or
+later). Its source is https://ffmpeg.org/releases/ffmpeg-8.1.3.tar.xz; the
+configure line and build script are in the public Credits page and GitHub Issues on Droid-Stream-Releases. For three years from each release we send
+this exact source on request (open an issue on
+https://github.com/1tordroid/Droid-Stream-Releases).
+
+SMB browsing uses SMBJ (com.hierynomus:smbj) under the Apache License 2.0.
+Credentials for network sources are kept in an encrypted on-device store.
+
+Direct magnet playback and the Torrents tab use one libtorrent session
+through libtorrent4j (org.libtorrent4j:libtorrent4j), both under the BSD
+3-Clause License. The stream is served to the player from http://127.0.0.1
+only. Seeding is off unless the user turns it on. NanoHTTPD
+(org.nanohttpd:nanohttpd) serves that local stream under the BSD license.
+OkHttp (com.squareup.okhttp3:okhttp), Apache License 2.0, performs the
+segmented downloads.
+
+Dolby Vision profile 7 to 8.1 conversion in the built-in player
+follows the RPU layout and
+conversion rules of dovi_tool's dolby_vision crate
+(https://github.com/quietvoid/dovi_tool). It is a separate Kotlin
+implementation; dovi_tool's test RPUs are used as test data in
+automated tests. dovi_tool is under the MIT License:
+
+Copyright (c) 2026 quietvoid
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

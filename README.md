@@ -178,6 +178,8 @@ Report problems in [Issues](https://github.com/1tordroid/Droid-Stream-Releases/i
 > [!IMPORTANT]
 > Droid Stream does not host, store or provide any media content. You add your own sources and are responsible for using them lawfully. It is not affiliated with any third-party service named here; all trademarks belong to their owners.
 
-[About](https://droidstream.tordroid.com/about/) · [Privacy](https://droidstream.tordroid.com/privacy/) · [Terms](https://droidstream.tordroid.com/terms/) · [Disclaimer and DMCA](https://droidstream.tordroid.com/disclaimer/)
+[About](https://droidstream.tordroid.com/about/) · [Credits and licences](https://droidstream.tordroid.com/credits/) · [Privacy](https://droidstream.tordroid.com/privacy/) · [Terms](https://droidstream.tordroid.com/terms/) · [Disclaimer and DMCA](https://droidstream.tordroid.com/disclaimer/)
 
-Licence: [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). Personal and other noncommercial use is free.
+Open-source attribution: [CREDITS.md](./CREDITS.md) · [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)
+
+Licence: [PolyForm Noncommercial 1.0.0](./LICENSE) ([human-readable](https://polyformproject.org/licenses/noncommercial/1.0.0)). Personal and other noncommercial use is free. See [NOTICE](./NOTICE).
