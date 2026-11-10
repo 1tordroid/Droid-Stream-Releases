@@ -1,0 +1,55 @@
+name: Attest release APKs
+
+# Records a signed provenance attestation for the APKs of a published release.
+# It proves the files were published from this repository by this workflow and
+# have not changed since. It does not prove which source code they were built from.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to attest (for example v5.8.1)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  id-token: write
+  attestations: write
+
+concurrency:
+  group: attest-${{ github.event.release.tag_name || inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  attest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: |
+          set -euo pipefail
+          mkdir dist
+          gh release download "$TAG" -R "$GITHUB_REPOSITORY" -D dist -p '*.apk' -p 'SHA256SUMS'
+          ls -l dist
+
+      - name: Verify checksums
+        working-directory: dist
+        run: |
+          set -euo pipefail
+          test -s SHA256SUMS
+          ls *.apk >/dev/null
+          for f in *.apk; do
+            grep -q "  $f\$" SHA256SUMS || { echo "::error::$f is not listed in SHA256SUMS"; exit 1; }
+          done
+          sha256sum -c SHA256SUMS
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@v4
+        with:
+          subject-path: dist/*.apk

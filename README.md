@@ -146,9 +146,17 @@ Most media apps do one job well. Droid Stream puts the jobs you would normally s
   - `DroidStream-universal-vX.Y.Z.apk`: works on every device, including older 32-bit ones. Pick this if unsure.
 - **Website:** https://droidstream.tordroid.com
 - **Auto-updates** with [Obtainium](https://github.com/ImranR98/Obtainium): add `https://github.com/1tordroid/Droid-Stream-Releases`. The app also checks for signed updates itself.
-- **Check a download:** compare it with `SHA256SUMS` in the same release.
+- **Check a download:** compare it with `SHA256SUMS` in the same release. Full guide: [Verify your download](./VERIFY.md).
 
 Requires Android 9 or newer.
+
+## Is this download genuine?
+
+Droid Stream is built from a private source repository. This repository only hosts the official signed releases. Only download from here or [droidstream.tordroid.com](https://droidstream.tordroid.com), never from other sites.
+
+Official signing certificate (SHA-256): `76fb06dd1d36edb89ce3ed058c5c520bffcb36eb2667b4707b487138f650d2be`
+
+How to check the signer, the checksums, the GitHub attestation and VirusTotal: **[VERIFY.md](./VERIFY.md)**
 
 ## Guides
 
