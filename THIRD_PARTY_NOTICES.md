@@ -395,7 +395,7 @@ Licence: PolyForm Noncommercial 1.0.0.
 ## Website assets
 
 - Fonts on https://droidstream.tordroid.com and https://tordroid.com: system UI font stack only (no third-party webfont files).
-- Marketing images, logos, and OG artwork: original Tordroid work (including AI-assisted generation where used).
+- Marketing images, logos, and OG artwork: original Tordroid work.
 - Inline SVG icons on the sites: original Tordroid work.
 
 ## Licence texts

@@ -1103,7 +1103,7 @@ Player volume.
 - **Site fonts:** system UI fonts only (no webfont download). Stack: system-ui / Segoe UI / Roboto / Noto Sans / Helvetica Neue / Arial.
 - **App font (in the APK):** Inter by Rasmus Andersson / The Inter Project Authors, SIL Open Font License 1.1 — [rsms/inter](https://github.com/rsms/inter).
 - **Icons on the website:** inline SVG symbols drawn for this site (Tordroid original).
-- **App icons, logos, OG images, and marketing artwork:** created by Tordroid (original / AI-assisted generation). Not third-party stock.
+- **App icons, logos, OG images, and marketing artwork:** created by Tordroid (original). Not third-party stock.
 - **Screenshots on the site:** captured from the app; artwork and titles shown inside screenshots are placeholder art; channel logos are replaced.
 
 ## Required notices
