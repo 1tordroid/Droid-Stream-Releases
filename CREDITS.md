@@ -16,7 +16,7 @@ Droid Stream is free and noncommercial. It is made by Tordroid.
 
 **Licence:** PolyForm Noncommercial 1.0.0
 
-This app. Source code, releases and the changelog are on GitHub.
+This app. Releases and the changelog are on GitHub. The source code is private.
 
 [Repository](https://github.com/1tordroid/Droid-Stream-Releases) · [Releases](https://github.com/1tordroid/Droid-Stream-Releases/releases) · [Licence](https://github.com/1tordroid/Droid-Stream-Releases/blob/main/LICENSE)
 

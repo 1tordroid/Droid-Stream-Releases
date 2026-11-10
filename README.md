@@ -64,6 +64,7 @@ The built-in player, VLC or any player you like.
 - DTS and TrueHD audio, chapters, and every audio track a source offers
 - **New:** subtitle sync tools, dual subtitles and translation with your own service
 - Night mode, dialogue boost, picture-in-picture and background audio
+- Dolby Vision profile 7 files can play as Dolby Vision on phones and TVs that support it
 
 ### ☁️ Debrid, cloud and add-ons
 Sign in to TorBox, Real-Debrid, AllDebrid, Premiumize, Offcloud, Debrid-Link or PikPak.
@@ -89,6 +90,8 @@ Smart unblock is on by default: only the sites your internet provider blocks go 
 - DNS over HTTPS, and an optional app lock with your fingerprint or screen lock
 - Signed, verified updates; modified copies refuse to run
 - **New:** rooted phones, TV boxes and custom ROMs are fully supported, and nothing is sent to Google
+- **New:** re-signed, hooked or debugged copies refuse to run; screens with passwords, PINs or keys stay out of screenshots and recordings
+- **New:** an "Update required" screen waits until you leave the player, and your downloads, profiles and settings stay
 
 ### 📡 Android TV and casting
 A TV layout you drive with the remote, plus Google Cast and DLNA.
@@ -105,6 +108,7 @@ Each profile has its own history, library, Continue watching and Live TV favouri
 Trakt, Simkl and AniList, signed in with a code or a QR code.
 - Scrobbling that keeps working offline
 - A calendar of new episodes and alerts at air time
+- **New:** new-episode alerts and "keep next episodes ready" refresh in the background and wait while the battery is low
 - IMDb, Rotten Tomatoes and Metacritic scores on title pages
 
 ### 🧲 Torrent client

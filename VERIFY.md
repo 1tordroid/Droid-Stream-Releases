@@ -42,7 +42,7 @@ A workflow in this repository records a signed attestation for the APKs of each 
 gh attestation verify DroidStream-arm64-vX.Y.Z.apk -R 1tordroid/Droid-Stream-Releases
 ```
 
-To be clear about what this proves: the file was published from this repository by its release workflow and hasn't been changed since. It does **not** prove which source code it was built from, because the source is private.
+To be clear about what this proves: the file was attested by this repository's `attest-release.yml` workflow when the release was published here, and hasn't been changed since. It does **not** prove which source code it was built from, because the source is private.
 
 ## 4. VirusTotal
 
