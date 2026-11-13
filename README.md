@@ -40,7 +40,7 @@ Droid Stream is a player and organiser for your own sources: free-to-air channel
 
 - **5.9.9 is the last 5.x release.** The 5.x app was based on [Vega by vega-org](https://github.com/vega-org/vega-app) and keeps its licence and credits.
 - **6.0 is a new app written from scratch by Tordroid**, in Kotlin and Jetpack Compose for phones, tablets and Android TV. It does not reuse the 5.x or Vega code, and it comes under its own licence: proprietary, with terms of use you accept at first start.
-- 6.0 will update 5.9.9 in place and keep your data. Until then, 5.9.9 keeps getting its signed updates checks and stays the version to download here.
+- 6.0 will update 5.9.9 in place and keep your data. Until then, 5.9.9 is the version to download here.
 
 ## New in 5.9.9
 
