@@ -150,6 +150,7 @@ If a value does not match, do not install the file. Full guide: [Verify your dow
 
 ## Coming soon
 
+- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will update 5.9.9 in place and keep your data. 5.9.9 is the last 5.x release.
 - Droid-Stream Firefox extension
 - Droid-Stream TV app
 
