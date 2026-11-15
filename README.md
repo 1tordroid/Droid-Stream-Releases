@@ -38,9 +38,18 @@ Droid Stream is a player and organiser for your own sources: free-to-air channel
 
 **Droid Stream is not discontinued. It continues as Droid Stream 6.0.**
 
-- **5.9.10 is the last 5.x release.** The 5.x app was based on [Vega by vega-org](https://github.com/vega-org/vega-app) and keeps its licence and credits.
+- **5.9.11 is the last 5.x release.** The 5.x app was based on [Vega by vega-org](https://github.com/vega-org/vega-app) and keeps its licence and credits.
 - **6.0 is a new app written from scratch by Tordroid**, in Kotlin and Jetpack Compose for phones, tablets and Android TV. It does not reuse the 5.x or Vega code, and it comes under its own licence: proprietary, with terms of use you accept at first start.
-- 6.0 will update 5.9.10 in place and keep your data. Until then, 5.9.10 is the version to download here.
+- 6.0 will update 5.9.11 in place and keep your data. Until then, 5.9.11 is the version to download here.
+
+## New in 5.9.11
+
+- **Merge all**, on by default: Home shows rows from all your providers, Stremio and Nuvio add-ons, Top 10, Because you watched, MDBList and your scanned libraries at once, each row named after its source. A title on several sources shows once, with a +N badge, and its page lists every copy. A slow or broken source never stops the others.
+- **Server speed**: speed badges and a Top pick in the source list. The player starts on the fastest server and moves to the next fastest when a video keeps buffering, and downloads use the fastest server.
+- **Updates**: a new version must be installed to keep using the app, with only Update and Exit. When Droid Stream may not install apps yet, the update screen shows how to allow it, with big steps for TV remotes.
+- **Clear cache automatically** (Settings > Data management > Storage), on by default. Partial downloads, .torrent files, saved subtitles and cookies now live outside the cache folder.
+- **Security**: copied passwords and keys leave the clipboard after 60 seconds, screens with secrets ignore taps through other apps' overlays, and the app's own web views are locked down.
+- The VLC player's back and forward buttons move by the seek interval again.
 
 ## New in 5.9.10
 
@@ -162,7 +171,7 @@ If a value does not match, do not install the file. Full guide: [Verify your dow
 
 ## Coming soon
 
-- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will update 5.9.10 in place and keep your data. 5.9.10 is the last 5.x release.
+- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will update 5.9.11 in place and keep your data. 5.9.11 is the last 5.x release.
 - Droid-Stream Firefox extension
 - Droid-Stream TV app
 
