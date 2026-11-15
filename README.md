@@ -38,9 +38,16 @@ Droid Stream is a player and organiser for your own sources: free-to-air channel
 
 **Droid Stream is not discontinued. It continues as Droid Stream 6.0.**
 
-- **5.9.11 is the last 5.x release.** The 5.x app was based on [Vega by vega-org](https://github.com/vega-org/vega-app) and keeps its licence and credits.
+- **5.9.12 is the latest 5.x release.** The 5.x app was based on [Vega by vega-org](https://github.com/vega-org/vega-app) and keeps its licence and credits.
 - **6.0 is a new app written from scratch by Tordroid**, in Kotlin and Jetpack Compose for phones, tablets and Android TV. It does not reuse the 5.x or Vega code, and it comes under its own licence: proprietary, with terms of use you accept at first start.
-- 6.0 will update 5.9.11 in place and keep your data. Until then, 5.9.11 is the version to download here.
+- 6.0 will update 5.x in place and keep your data. Until then, 5.9.12 is the version to download here.
+
+## New in 5.9.12
+
+- **Subtitles that fail to load**: a subtitle from the server that does not load no longer interrupts the video unless you are watching with it. The subtitle menu marks it "Couldn't load". When the one you are watching with fails, the player names its language, switches to another subtitle in that language when there is one, and then offers to find it on OpenSubtitles with one press.
+- **Pick the subtitle version that is in time**: the subtitle menu lists the OpenSubtitles versions in your language, with their names and downloads, "Matches this file" and "In use". Pick one and it is used at once. "Subtitle early or late? Adjust timing" sits right below, and each version keeps its own timing.
+- **Clear error messages**: when a source's server fails (for example error 502), the app says what happened and what to do, in plain words, with Try again and, when the title is on other sources, Also on and All sources.
+- Subtitle tracks from the server show their format in plain words and "Unknown language" instead of technical names.
 
 ## New in 5.9.11
 
@@ -180,7 +187,7 @@ If a value does not match, do not install the file. Full guide: [Verify your dow
 
 ## Coming soon
 
-- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will update 5.9.11 in place and keep your data. 5.9.11 is the last 5.x release.
+- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will update 5.x in place and keep your data.
 - Droid-Stream Firefox extension
 - Droid-Stream TV app
 
