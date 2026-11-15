@@ -51,6 +51,15 @@ Droid Stream is a player and organiser for your own sources: free-to-air channel
 - **Security**: copied passwords and keys leave the clipboard after 60 seconds, screens with secrets ignore taps through other apps' overlays, and the app's own web views are locked down.
 - The VLC player's back and forward buttons move by the seek interval again.
 
+| | | | |
+|:-:|:-:|:-:|:-:|
+| <img src="assets/features/5911/mergeall-home.webp" width="190" alt="Home with the All sources chip and a row named after its source"> | <img src="assets/features/5911/mergeall-rows.webp" width="190" alt="Rows from three sources with +N badges"> | <img src="assets/features/5911/mergeall-top10.webp" width="190" alt="A Cinemeta row and Top 10 with rank and +N badges"> | <img src="assets/features/5911/mergeall-menu.webp" width="190" alt="Home menu with Merge all ticked"> |
+| Merge all | Rows named after their source | Top 10 with +N | Merge all in the Home menu |
+| <img src="assets/features/5911/mergeall-alsoon.webp" width="190" alt="Title page with Also on and All sources"> | <img src="assets/features/5911/allsources-toppick.webp" width="190" alt="All sources with filters and a Top pick card"> | <img src="assets/features/5911/storage-autoclear.webp" width="190" alt="Storage settings with Clear cache automatically switched on"> | |
+| Also on | Top pick | Clear cache automatically | |
+
+<sub>Screenshots from version 5.9.11 on an Android phone. Title artwork, titles, source names and stream details are blurred.</sub>
+
 ## New in 5.9.10
 
 - App updates keep downloading when you switch to another app, and pick up where they stopped after a connection drop instead of starting over.
