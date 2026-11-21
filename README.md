@@ -2,6 +2,11 @@
 <!-- status-notice -->
 ## Status: 5.9.13 is coming, then Droid Stream 6.0
 
+**Get Droid Stream:**
+- **Download the latest release:** https://github.com/1tordroid/Droid-Stream-Releases/releases/latest
+- **All releases and notes:** https://github.com/1tordroid/Droid-Stream-Releases
+- **Website (download, guides, changelog):** https://droidstream.tordroid.com
+
 **Droid Stream 6.0 is under development.** Until then, please keep using **5.9.12**, the current release.
 
 **5.9.13 comes first**: the last 5.x update, a large bug-fix release. It is being checked right now (a full review of the code and tests on real phones and TVs) and is expected in the next 1–2 weeks. We will update this note if it takes longer. 6.0 follows after it.
