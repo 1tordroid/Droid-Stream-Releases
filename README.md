@@ -66,7 +66,7 @@ Droid Stream is a player and organiser for your own sources: free-to-air channel
 
 - **5.9.12 is the latest 5.x release.** The 5.x app was based on [Vega by vega-org](https://github.com/vega-org/vega-app) and keeps its licence and credits.
 - **6.0 is a new app written from scratch by Tordroid**, in Kotlin and Jetpack Compose for phones, tablets and Android TV. It does not reuse the 5.x or Vega code, and it comes under its own licence: proprietary, with terms of use you accept at first start.
-- 6.0 will update 5.x in place and keep your data. Until then, 5.9.12 is the version to download here.
+- 6.0 will install over 5.x as a normal update. Your current settings, library and watch history stay safe on your own device during the update. Until then, 5.9.12 is the version to download here.
 
 ## New in 5.9.12
 
@@ -213,7 +213,7 @@ If a value does not match, do not install the file. Full guide: [Verify your dow
 
 ## Coming soon
 
-- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will update 5.x in place and keep your data.
+- **Droid Stream 6.0**: a complete rebuild in Kotlin and Jetpack Compose for phones, tablets and Android TV, faster and lighter on low-memory devices. It will install over 5.x as a normal update, and your current settings, library and watch history stay safe on your own device during the update.
 - Droid-Stream Firefox extension
 - Droid-Stream TV app
 
