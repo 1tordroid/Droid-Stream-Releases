@@ -1,3 +1,24 @@
+
+<!-- status-notice -->
+## Status: 5.9.13 is coming, then Droid Stream 6.0
+
+**Droid Stream 6.0 is under development.** Until then, please keep using **5.9.12**, the current release.
+
+**5.9.13 comes first**: the last 5.x update, a large bug-fix release. It is being checked right now (a full review of the code and tests on real phones and TVs) and is expected in the next 1–2 weeks. We will update this note if it takes longer. 6.0 follows after it.
+
+What 5.9.13 fixes:
+
+- Stremio add-on titles are saved in Continue Watching, with Resume, Next episode and the episode list.
+- Downloads: finished downloads that would not play now play; the download sheet shows each link's audio languages and has quality and language filters; a Downloads button on Home.
+- Easier setup: torrents also run on mobile data, the VPN kill switch is off by default, subtitles in English and Hindi from the start.
+- Live TV: a channel with a black screen moves to another server; recordings, Xtream accounts and big playlists work better.
+- Torrents: season packs, streaming while downloading, restarts and crash fixes.
+- Player and casting: resume, server switching, VLC progress, DLNA TVs, the episode page layout.
+- Subtitles: no more subtitles from the wrong episode or film, other text encodings, translations.
+- Providers, add-ons, search, Home, sync and profiles, right-to-left languages, TV remote focus, the in-app browser and security.
+- Hundreds of smaller fixes found by a full review of the code.
+<!-- /status-notice -->
+
 <p align="center">
   <img src="assets/logo.png" width="112" alt="Droid Stream logo">
 </p>
